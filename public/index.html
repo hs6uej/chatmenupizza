@@ -42,7 +42,7 @@
         <h2 class="fw-bold"><i class="bi bi-rocket-takeoff text-warning"></i> Pizza Menu API Tester</h2>
         <div class="d-flex justify-content-center align-items-center gap-2 mt-2">
           <span class="text-secondary">Base URL:</span>
-          <input type="text" id="baseUrl" class="form-control form-control-sm" style="width: 300px;" value="http://localhost:4060">
+          <input type="text" id="baseUrl" class="form-control form-control-sm" style="width: 300px;" value="">
           <button class="btn btn-sm btn-outline-success" onclick="checkHealth()">
             <i class="bi bi-heart-pulse"></i> Health
           </button>
@@ -211,6 +211,7 @@
     // Init
     let chatStarted = false;
     document.getElementById('sessionId').value = generateId();
+    document.getElementById('baseUrl').value = window.location.origin;
 
     function getBaseUrl() {
       return document.getElementById('baseUrl').value.replace(/\/$/, '');
