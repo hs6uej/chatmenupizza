@@ -1,0 +1,2722 @@
+{
+    "group": "PROMOTION",
+    "categories": [
+        {
+            "id": "PROMOTION",
+            "name_en": "Promotion",
+            "name_th": "โปรโมชัน",
+            "status": "AVAILABLE",
+            "selling_time": "away_time",
+            "items": [
+                {
+                    "id": "PROMOTION|PZCB|PRETZA COMBO",
+                    "product_type": "PROMOTION",
+                    "code": "PZCB",
+                    "name": "PRETZA COMBO",
+                    "name_en": "Pretza Combo",
+                    "name_th": "เพรทซ่า คอมโบ",
+                    "description_en": "1 Pretza, 6 pcs New Orleans and 2 Pepsi 16oz",
+                    "description_th": "เพรทซ่า 1 ถาด, นิวออร์ลีนส์ 6 ชิ้น และเป๊ปซี่ 16 ออนซ์ 2 แก้ว",
+                    "selling_time": "away_time",
+                    "status": "AVAILABLE",
+                    "price_concept": "NORMAL",
+                    "price": 399,
+                    "itemSelection": [
+                        {
+                            "id": "Z1|PIZZA|PZCB",
+                            "product_type": "PIZZA",
+                            "name_en": "Choose Pizza",
+                            "name_th": "เลือกพิซซ่า",
+                            "sequence": 1,
+                            "itemGroups": [
+                                {
+                                    "id": "PIZZA|SFE|SEAFOOD EXTREME",
+                                    "product_type": "PIZZA",
+                                    "code": "SFE",
+                                    "name": "SEAFOOD EXTREME",
+                                    "name_en": "Seafood Extreme",
+                                    "name_th": "ซีฟู้ด เอ็กซ์ตรีม",
+                                    "description_en": "Cheese, Shrimp, Squid, Clam, Mussel, Crab Stick, Onion, Capsicum, and Chunky Tomato Sauce",
+                                    "description_th": "ชีส, กุ้ง, ปลาหมึก, หอยลาย, หอยแมลงภู่, ปูอัด, หัวหอม, พริกหวาน และซอสมะเขือเทศสูตรพิเศษ",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 140,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|BHC|BACON AND HOKKAIDO CHEESE",
+                                    "product_type": "PIZZA",
+                                    "code": "BHC",
+                                    "name": "BACON AND HOKKAIDO CHEESE",
+                                    "name_en": "Bacon & Hokkaido Cheese",
+                                    "name_th": "เบคอน & ฮอกไกโด ชีส",
+                                    "description_en": "Cheese, Hokkaido Cheese, Ham, Bacon, Pineapple, and Thousand Island Sauce",
+                                    "description_th": "ชีส, ฮอกไกโด ชีส,แฮม, เบคอน, สับปะรด และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 80,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|HWN|HAWAIIAN",
+                                    "product_type": "PIZZA",
+                                    "code": "HWN",
+                                    "name": "HAWAIIAN",
+                                    "name_en": "Hawaiian",
+                                    "name_th": "ฮาวายเอี้ยน",
+                                    "description_en": "Cheese, Ham, Bacon, Pineapple, and Pizza Sauce",
+                                    "description_th": "ชีส, สับปะรด, แฮมหมู, เบคอน และซอสพิซซ่า",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 50,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|IST|ISLAND DELIGHT",
+                                    "product_type": "PIZZA",
+                                    "code": "IST",
+                                    "name": "ISLAND DELIGHT",
+                                    "name_en": "Island Delight",
+                                    "name_th": "ไอแลนด์ ดีไลท์",
+                                    "description_en": "Cheese, Smoked Chicken, Crab Stick, Mushroom, Pineapple, and Thousand Island Sauce",
+                                    "description_th": "ชีส, ไก่รมควัน, ปูอัด, เห็ด, สับปะรด และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 50,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|CBN|CRAZY BACON",
+                                    "product_type": "PIZZA",
+                                    "code": "CBN",
+                                    "name": "CRAZY BACON",
+                                    "name_en": "Crazy Bacon",
+                                    "name_th": "เครซี่ เบคอน",
+                                    "description_en": "Cheese, Bacon, Pineapple, Ham, and Thousand Island Sauce",
+                                    "description_th": "ชีส, เบคอน, สับปะรด, แฮมหมู และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 50,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|NOD|NEW ORLEANS DELUXE",
+                                    "product_type": "PIZZA",
+                                    "code": "NOD",
+                                    "name": "NEW ORLEANS DELUXE",
+                                    "name_en": "New Orleans Deluxe",
+                                    "name_th": "นิวออร์ลีนส์ ดีลักซ์",
+                                    "description_en": "Cheese, New Orleans Chicken, Pineapple, and Pizza Sauce",
+                                    "description_th": "ชีส, ไก่นิวออร์ลีนส์, สับปะรด, และซอสพิซซ่า",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 50,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|SCB|SPICY CHICKEN BBQ",
+                                    "product_type": "PIZZA",
+                                    "code": "SCB",
+                                    "name": "SPICY CHICKEN BBQ",
+                                    "name_en": "Spicy Chicken BBQ",
+                                    "name_th": "สไปซี่ ชิกเก้น บาร์บีคิว",
+                                    "description_en": "Cheese, New Orleans Chicken, Chicken Sausage, Pineapple and Spicy BBQ Sauce",
+                                    "description_th": "ชีส, ไก่นิวออร์ลีนส์, ไส้กรอกไก่, สับปะรด, และซอสสไปซี่บาร์บีคิว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 50,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|MDE|MIXED DELUXE",
+                                    "product_type": "PIZZA",
+                                    "code": "MDE",
+                                    "name": "MIXED DELUXE",
+                                    "name_en": "Mixed Deluxe",
+                                    "name_th": "มิกซ์ ดีลักซ์",
+                                    "description_en": "Cheese, Pepperoni, Ham, New Orleans Chicken, Onion, Capsicum, Pineapple, and Pizza Sauce",
+                                    "description_th": "ชีส, เปปเปอโรนี, แฮมหมู,ไก่นิวออร์ลีนส์, หัวหอม, พริกหวาน, สับปะรด และซอสพิซซ่า",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 50,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|VGS|VEGGIE",
+                                    "product_type": "PIZZA",
+                                    "code": "VGS",
+                                    "name": "VEGGIE",
+                                    "name_en": "Veggie",
+                                    "name_th": "เวจจี้",
+                                    "description_en": "Cheese, Mushroom, Tomato, Onion, Capsicum, Pineapple and Pizza Sauce",
+                                    "description_th": "ชีส, เห็ด, มะเขือเทศ, หัวหอม, พริกหวาน, สับปะรด และซอสพิซซ่า",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 50,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|HSC|HOKKAIDO SUPER CHEESE",
+                                    "product_type": "PIZZA",
+                                    "code": "HSC",
+                                    "name": "HOKKAIDO SUPER CHEESE",
+                                    "name_en": "Hokkaido Super Cheese",
+                                    "name_th": "ฮอกไกโด ซูเปอร์ ชีส",
+                                    "description_en": "Cheese, Hokkaido Cheese, and Thousand Island Sauce",
+                                    "description_th": "ชีส, ฮอกไกโด ชีส และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 50,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|SSB|SPICY SHRIMP BBQ",
+                                    "product_type": "PIZZA",
+                                    "code": "SSB",
+                                    "name": "SPICY SHRIMP BBQ",
+                                    "name_en": "Spicy Shrimp BBQ",
+                                    "name_th": "สไปซี่ กุ้ง บาร์บีคิว",
+                                    "description_en": "Cheese, Shrimp, Green Capsicum, Onion, Pineapple, and Spicy BBQ Sauce",
+                                    "description_th": "ชีส, กุ้ง, พริกหวาน, หัวหอม, สับปะรด, และซอสสไปซี่บาร์บีคิว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 140,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|PPI|PEPPERONI",
+                                    "product_type": "PIZZA",
+                                    "code": "PPI",
+                                    "name": "PEPPERONI",
+                                    "name_en": "Pepperoni",
+                                    "name_th": "เปปเปอโรนี",
+                                    "description_en": "Cheese, Pepperoni, and Pizza Sauce",
+                                    "description_th": "ชีส, เปปเปอโรนี และซอสพิซซ่า",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|HCE|HAM AND CHEESE",
+                                    "product_type": "PIZZA",
+                                    "code": "HCE",
+                                    "name": "HAM AND CHEESE",
+                                    "name_en": "Ham & Cheese",
+                                    "name_th": "แฮม & ชีส",
+                                    "description_en": "Cheese, Ham, Cheese Dice, Pineapple and Thousand Island Sauce",
+                                    "description_th": "ชีส, แฮมหมู, ชีสไดซ์, สับปะรด และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|CHE|CHEESE LOVER",
+                                    "product_type": "PIZZA",
+                                    "code": "CHE",
+                                    "name": "CHEESE LOVER",
+                                    "name_en": "Cheese",
+                                    "name_th": "ชีส",
+                                    "description_en": "Cheese and Pizza Sauce",
+                                    "description_th": "ชีส และซอสพิซซ่า",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|NOS|NEW ORLEANS AND SAUSAGE",
+                                    "product_type": "PIZZA",
+                                    "code": "NOS",
+                                    "name": "NEW ORLEANS AND SAUSAGE",
+                                    "name_en": "New Orleans & Sausage",
+                                    "name_th": "นิวออร์ลีนส์ & ซอสเซจ",
+                                    "description_en": "Cheese, New Orleans Chicken, Chicken Sausage, Pineapple and Thousand Island Sauce",
+                                    "description_th": "ชีส, ไก่นิวออร์ลีนส์, ไส้กรอกไก่, สับปะรด และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|SFP|SEAFOOD PARADISE",
+                                    "product_type": "PIZZA",
+                                    "code": "SFP",
+                                    "name": "SEAFOOD PARADISE",
+                                    "name_en": "Seafood Paradise",
+                                    "name_th": "ซีฟู้ด พาราไดซ์",
+                                    "description_en": "Cheese, Shrimp, Crab Stick, Mushroom, Pineapple, and Thousand Island Sauce",
+                                    "description_th": "ชีส, กุ้ง, ปูอัด, เห็ด, สับปะรด และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 140,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|SHC|SEAFOOD AND HOKKAIDO CHEESE",
+                                    "product_type": "PIZZA",
+                                    "code": "SHC",
+                                    "name": "SEAFOOD AND HOKKAIDO CHEESE",
+                                    "name_en": "Seafood & Hokkaido Cheese",
+                                    "name_th": "ซีฟู้ด & ฮอกไกโด ชีส",
+                                    "description_en": "Cheese, Hokkaido Cheese, Shrimp, Crab Stick, Ham, Pineapple and Thousand Island Sauce",
+                                    "description_th": "ชีส, ฮอกไกโด ชีส, กุ้ง,ปูอัด,แฮม,สับปะรด และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 140,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|SEE|SHRIMP EXTREME",
+                                    "product_type": "PIZZA",
+                                    "code": "SEE",
+                                    "name": "SHRIMP EXTREME",
+                                    "name_en": "Shrimp Extreme",
+                                    "name_th": "กุ้ง เอ็กซ์ตรีม",
+                                    "description_en": "Cheese, Shrimp, Pineapple, and Thousand Island Sauce",
+                                    "description_th": "ชีส, กุ้ง, สับปะรด และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 140,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|SSE|SUPER SUPREME",
+                                    "product_type": "PIZZA",
+                                    "code": "SSE",
+                                    "name": "SUPER SUPREME",
+                                    "name_en": "Super Supreme",
+                                    "name_th": "ซูเปอร์ สุพรีม",
+                                    "description_en": "Cheese, Pepperoni, Italian Sausage, Smoked Sausage, Ham, Smoked Chicken, Mushroom, Onion, Capsicum, Pineapple, and Pizza Sauce",
+                                    "description_th": "ชีส, เปปเปอโรนี, ไส้กรอกอิตาเลี่ยน, ไส้กรอกรมควัน, แฮมหมู, ไก่รมควัน, เห็ด, หัวหอม, พริกหวาน, สับปะรด และซอสพิซซ่า",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 80,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|MSE|MEAT SUPREME",
+                                    "product_type": "PIZZA",
+                                    "code": "MSE",
+                                    "name": "MEAT SUPREME",
+                                    "name_en": "Meat Supreme",
+                                    "name_th": "มีท สุพรีม",
+                                    "description_en": "Cheese, Pepperoni, Ham, Italian Sausage, Smoked Sausage, and Pizza Sauce",
+                                    "description_th": "ชีส, เปปเปอโรนี, แฮมหมู, ไส้กรอกอิตาเลี่ยน, ไส้กรอกรมควัน และซอสพิซซ่า",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 80,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|CSE|CHICKEN SUPREME",
+                                    "product_type": "PIZZA",
+                                    "code": "CSE",
+                                    "name": "CHICKEN SUPREME",
+                                    "name_en": "Chicken Supreme",
+                                    "name_th": "ชิกเก้น สุพรีม",
+                                    "description_en": "Cheese, New Orleans Chicken, Smoked Chicken, Chicken Sausage, Capsicum, Onion, Mushroom, and Pizza Sauce",
+                                    "description_th": "ชีส, ไก่นิวออร์ลีนส์, ไก่รมควัน, ไส้กรอกไก่, พริกหวาน, หัวหอม, เห็ด และซอสพิซซ่า",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 80,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|6CH|6 CHEESE",
+                                    "product_type": "PIZZA",
+                                    "code": "6CH",
+                                    "name": "6 CHEESE",
+                                    "name_en": "6 Cheese",
+                                    "name_th": "6 ชีส",
+                                    "description_en": "Special selection for \"Cheese Lovers\" Cream Cheese, Hokkaido Cheese, Cheddar Cheese, Mozzarella Cheese, Parmesan Cheese, Cheese Dice and Thousand Isaland Sauce",
+                                    "description_th": "สาวกชีสเลิฟเวอร์ต้องละลาย กับความละมุนของชีสพรีเมียม 6 ชนิด ครีมชีส, ฮอกไกโดชีส, เชดด้าชีส, มอสซาเรลล่าชีส, พาร์เมซานชีส, ชีสไดส์ และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 80,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|MARGT|MARGHERITA",
+                                    "product_type": "PIZZA",
+                                    "code": "MARGT",
+                                    "name": "MARGHERITA",
+                                    "name_en": "Margherita Pizza",
+                                    "name_th": "พิซซ่ามาการิต้า",
+                                    "description_en": "Authentic Italian style pizza, perfectly balanced, rich sauce, delicious in real Italian style.",
+                                    "description_th": "พิซซ่าสไตล์นาโปลีแท้ authentic italy style แท้ๆ กลมกล่อมลงตัว ซอสเข้มข้น อร่อยสไตล์อิตาลีแท้",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|CS4CH|CLASSIC 4 CHEESE",
+                                    "product_type": "PIZZA",
+                                    "code": "CS4CH",
+                                    "name": "CLASSIC 4 CHEESE",
+                                    "name_en": "Classic 4Cheese Pizza",
+                                    "name_th": "พิซซ่าคลาสสิคโฟร์ชีส",
+                                    "description_en": "For cheese lovers with 4 types of premium cheese, ricotta, fresh mozzarella cheese, brie cheese, premium ingredients imported from Italy.",
+                                    "description_th": "ชีสเลิฟเวอร์ต้องหลงรัก ด้วยชีสพรีเมียม 4 ชนิด รีคอตต้า, มอสซาเรลล่าสด, บรีชีส วัตถุดิบพรีเมียมนำเข้าจากอิตาลี",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 50,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|TRFL|TRUFFLE",
+                                    "product_type": "PIZZA",
+                                    "code": "TRFL",
+                                    "name": "TRUFFLE",
+                                    "name_en": "Truffle Pizza",
+                                    "name_th": "พิซซ่าทรัฟเฟิล",
+                                    "description_en": "Truffle pizza that everyone is asking for Fragrant truffle scent, Premium Full truffle flavor, Every bite is delicious.",
+                                    "description_th": "พิซซ่าทรัฟเฟิลที่ทุกคนเรียกร้อง หอมกลิ่นทรัฟเฟิล วัตถุดิบสุดพรีเมียม รสชาติทรัฟเฟิลเต็มๆคำ อร่อยทุกคำจัดเต็ม",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 80,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|SSHY|SPICY SALAMI HONEY",
+                                    "product_type": "PIZZA",
+                                    "code": "SSHY",
+                                    "name": "SPICY SALAMI HONEY",
+                                    "name_en": "SPICY SALAMI HONEY",
+                                    "name_th": "SPICY SALAMI HONEY",
+                                    "description_en": "",
+                                    "description_th": "",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 80,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|SFLE|SEAFOOD LEMON",
+                                    "product_type": "PIZZA",
+                                    "code": "SFLE",
+                                    "name": "SEAFOOD LEMON",
+                                    "name_en": "SEAFOOD LEMON",
+                                    "name_th": "SEAFOOD LEMON",
+                                    "description_en": "",
+                                    "description_th": "",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 140,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|TCB|TRIO CHICKEN BBQ",
+                                    "product_type": "PIZZA",
+                                    "code": "TCB",
+                                    "name": "TRIO CHICKEN BBQ",
+                                    "name_en": "Trio Chicken BBQ",
+                                    "name_th": "ทริโอ้ ชิกเก้น บาร์บีคิว",
+                                    "description_en": "Cheese, New Orleans Chicken, Smoked Chicken, Chicken Sausage, Pineapple, Capsicum, Onion, and Spicy BBQ Sauce",
+                                    "description_th": "ชีส, ไก่นิวออร์ลีนส์, ไก่รมควัน, ไส้กรอกไก่, สับปะรด, พริกหวาน, หัวหอม และซอสสไปซี่บาร์บีคิว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 80,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|CBNRCB|CARBONARA CRISPY BACON",
+                                    "product_type": "PIZZA",
+                                    "code": "CBNRCB",
+                                    "name": "CARBONARA CRISPY BACON",
+                                    "name_en": "Carbonara Crispy Bacon",
+                                    "name_th": "พิซซ่าคาโบนาร่าเบคอนกรอบ",
+                                    "description_en": "New pizza, Napoli style, with crispy carbonara bacon. The rich cream sauce is paired with ham and topped with crispy bacon, fragrant sprinkle of Parmesan cheese.",
+                                    "description_th": "พิซซ่าใหม่ สไตล์นาโปลี คาโบนาร่าเบคอนกรอบ ซอสครีมมีเข้มข้น พร้อมแฮมและโรยเบคอนกรอบ หอมพาเมซานชีสสุดนัว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 50,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|ITLSP|ITALIAN SUPREME",
+                                    "product_type": "PIZZA",
+                                    "code": "ITLSP",
+                                    "name": "ITALIAN SUPREME",
+                                    "name_en": "ITALIAN SUPREME",
+                                    "name_th": "ITALIAN SUPREME",
+                                    "description_en": "",
+                                    "description_th": "",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 80,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|HRCBN|HAM ROCKET BACON",
+                                    "product_type": "PIZZA",
+                                    "code": "HRCBN",
+                                    "name": "HAM ROCKET BACON",
+                                    "name_en": "Premium Ham & Rocket with Crispy Bacon",
+                                    "name_th": "พรีเมียมแฮม ผักร็อคเกต และเบคอนกรอบ",
+                                    "description_en": "Premium Smoked Ham – Rich, savory flavor topped with fresh rocket leaves, crispy bacon, and a sprinkle of parmesan cheese for extra indulgence",
+                                    "description_th": "พรีเมียมสโมคแฮม หอม รสชาติเข้มข้น ท็อปด้วยผักร็อคเก็ต ตัดด้วยเบคอนกรอบ โรยด้วยชีสพาร์เมซานเพิ่มความนัว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 80,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|GGPW|GARLIC GRILLED PRAWN",
+                                    "product_type": "PIZZA",
+                                    "code": "GGPW",
+                                    "name": "GARLIC GRILLED PRAWN",
+                                    "name_en": "Garlic Butter Grilled Prawn",
+                                    "name_th": "กุ้งย่างเนยกระเทียม",
+                                    "description_en": "Premium Grilled Shrimp – Juicy shrimp grilled with fragrant garlic butter, served with creamy white garlic mayo, garnished with chopped garlic, grilled mushrooms, parsley, and a touch of black pepper.",
+                                    "description_th": "กุ้งพรีเมียมย่างเนยกระเทียมหอมๆ พร้อมซอสไวท์การ์ลิคมาโยกลมกล่อม โรยกระเทียมสับ เห็ดย่าง ใบพาสลีย์เพิ่มความหอม และแบล็คเปปเปอร์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 140,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|SCLP|SCALLOP",
+                                    "product_type": "PIZZA",
+                                    "code": "SCLP",
+                                    "name": "SCALLOP",
+                                    "name_en": "Scallop Pizza",
+                                    "name_th": "พิซซ่าหน้าหอยเชลล์",
+                                    "description_en": "Premium Grilled Scallops – Generous, plump scallops served in a full tray with rich melted cheese, grilled mushrooms, topped with onion, sweet peppers, and fresh parsley.",
+                                    "description_th": "หอยเชลล์ย่างสุดพรีเมียมชิ้นโต จัดเต็มถาด ทานพร้อมชีสหัวนัวสุดกลมกล่อม เห็ดย่าง โรยด้วยหัวหอม พริกหวาน และใบพาสลีย์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 170,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                },
+                                                {
+                                                    "crust_id": "106",
+                                                    "crust_code": "JUMBO PRETZA",
+                                                    "crust_name_en": "JUMBO PRETZA",
+                                                    "crust_name_th": "JUMBO PRETZA",
+                                                    "price": 130
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Z2|SIDE ORDER|PZCB",
+                            "product_type": "SIDE ORDER",
+                            "name_en": "Choose Appetizer",
+                            "name_th": "เลือกเมนูทานเล่น",
+                            "sequence": 2,
+                            "itemGroups": [
+                                {
+                                    "id": "SIDE ORDER|NOW|NEW ORLEANS WINGS",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "NOW",
+                                    "name": "NEW ORLEANS WINGS",
+                                    "name_en": "New Orleans",
+                                    "name_th": "นิวออร์ลีนส์",
+                                    "description_en": "Bestselling all-time, 6 pieces of New Orleans Chicken, Pizza Hut's signature. Fragrant, succulent, and incredibly juicy chicken.",
+                                    "description_th": "ขายดีตลอดกาล ไก่นิวออร์ลีนส์ 6 ชิ้น signature ของ Pizza Hut หอม เนื้อไก่ชุ่มฉ่ำ juicy สุดๆ",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "10",
+                                            "sizecode": "6PCS",
+                                            "sizename_en": "6 Pieces",
+                                            "sizename_th": "6 ชิ้น",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SIDE ORDER|SPW|NEW ORLEANS SPICY WINGS",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "SPW",
+                                    "name": "NEW ORLEANS SPICY WINGS",
+                                    "name_en": "Spicy New Orleans",
+                                    "name_th": "นิวออร์ลีนส์สไปซี่",
+                                    "description_en": "New Orleans Chicken Spicy, 6 pieces, Pizza Hut's signature. Intensely flavorful, fragrant, and incredibly succulent chicken.",
+                                    "description_th": "ไก่นิวออร์ลีนส์สไปซี่ 6 ชิ้น signature ของ Pizza Hut รสจัดจ้าน หอม เนื้อไก่สุดชุ่มฉ่ำ",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "10",
+                                            "sizecode": "6PCS",
+                                            "sizename_en": "6 Pieces",
+                                            "sizename_th": "6 ชิ้น",
+                                            "price": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Z3|DRINK|PZCB",
+                            "product_type": "DRINK",
+                            "name_en": "Choose Drink",
+                            "name_th": "เลือกเครื่องดื่ม",
+                            "sequence": 3,
+                            "itemGroups": [
+                                {
+                                    "id": "DRINK|2PEP16|2xPEPSI 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "2PEP16",
+                                    "name": "2xPEPSI 16 OZ",
+                                    "name_en": "Pepsi 16oz 2 cups",
+                                    "name_th": "เป๊ปซี่ 16 ออนซ์ 2 แก้ว",
+                                    "description_en": "Pepsi 16oz 2 cup",
+                                    "description_th": "เป๊ปซี่ไม่มีน้ำตาล 16 ออนซ์ 2 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "DRINK|2PZS|2x PEPSI ZERO SUGAR 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "2PZS",
+                                    "name": "2x PEPSI ZERO SUGAR 16 OZ",
+                                    "name_en": "Pepsi Zero Sugar 16oz 2 Cups",
+                                    "name_th": "เป๊ปซี่ 16 ออนซ์ จำนวน 2 แก้ว",
+                                    "description_en": "Pepsi Zero Sugar 16oz 2 Cups",
+                                    "description_th": "เป๊ปซี่ ไม่มีน้ำตาล 16 ออนซ์ 2 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "PROMOTION|F1FNB|FS 1F1 FISH NORI BITE",
+                    "product_type": "PROMOTION",
+                    "code": "F1FNB",
+                    "name": "FS 1F1 FISH NORI BITE",
+                    "name_en": "1 Free 1 Fish Nori Bite",
+                    "name_th": "1 แถม 1 ฟิชโนริ ไบท์",
+                    "description_en": "New delicious appetizer! Fish Nori Bite, with a cute fish shape. Crispy and crunchy, rich in flavor, with fish meat packed in every bite",
+                    "description_th": "ของทานเล่นใหม่สุดอร่อย! ฟิชโนริ ไบท์ รูปทรงปลาสุดน่ารัก กรุบกรอบ เคี้ยวมัน เนื้อปลาอัดแน่นเต็มคำ โรยโนริสาหร่าย อร่อยทุกคำ",
+                    "selling_time": "away_time",
+                    "status": "AVAILABLE",
+                    "price_concept": "NORMAL",
+                    "price": 99,
+                    "itemSelection": [
+                        {
+                            "id": "Z1|SIDE ORDER|F1FNB",
+                            "product_type": "SIDE ORDER",
+                            "name_en": "Choose Appetizer",
+                            "name_th": "เลือกเมนูทานเล่น",
+                            "sequence": 1,
+                            "itemGroups": [
+                                {
+                                    "id": "SIDE ORDER|FNORIB|FISH NORI BITE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "FNORIB",
+                                    "name": "FISH NORI BITE",
+                                    "name_en": "Fish Nori Bite",
+                                    "name_th": "ฟิชโนริ ไบท์",
+                                    "description_en": "New delicious appetizer! Fish Nori Bite, with a cute fish shape. Crispy and crunchy, rich in flavor, with fish meat packed in every bite, topped with nori seaweed. Delicious in every bite",
+                                    "description_th": "ของทานเล่นใหม่สุดอร่อย! ฟิชโนริ ไบท์ รูปทรงปลาสุดน่ารัก กรุบกรอบ เคี้ยวมัน เนื้อปลาอัดแน่นเต็มคำ โรยโนริสาหร่าย อร่อยทุกคำ",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "10",
+                                            "sizecode": "6PCS",
+                                            "sizename_en": "6 Pieces",
+                                            "sizename_th": "6 ชิ้น",
+                                            "price": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Z2|SIDE ORDER|F1FNB",
+                            "product_type": "SIDE ORDER",
+                            "name_en": "Choose Appetizer",
+                            "name_th": "เลือกเมนูทานเล่น",
+                            "sequence": 2,
+                            "itemGroups": [
+                                {
+                                    "id": "SIDE ORDER|FNORIB|FISH NORI BITE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "FNORIB",
+                                    "name": "FISH NORI BITE",
+                                    "name_en": "Fish Nori Bite",
+                                    "name_th": "ฟิชโนริ ไบท์",
+                                    "description_en": "New delicious appetizer! Fish Nori Bite, with a cute fish shape. Crispy and crunchy, rich in flavor, with fish meat packed in every bite, topped with nori seaweed. Delicious in every bite",
+                                    "description_th": "ของทานเล่นใหม่สุดอร่อย! ฟิชโนริ ไบท์ รูปทรงปลาสุดน่ารัก กรุบกรอบ เคี้ยวมัน เนื้อปลาอัดแน่นเต็มคำ โรยโนริสาหร่าย อร่อยทุกคำ",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "10",
+                                            "sizecode": "6PCS",
+                                            "sizename_en": "6 Pieces",
+                                            "sizename_th": "6 ชิ้น",
+                                            "price": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "PROMOTION|FS1F1BM|FS 1F1 BAKE MAC",
+                    "product_type": "PROMOTION",
+                    "code": "FS1F1BM",
+                    "name": "FS 1F1 BAKE MAC",
+                    "name_en": "Buy 1 get 1 Baked Macaroni",
+                    "name_th": "ซื้อ 1 แถม 1 มักกะโรนีอบชีส",
+                    "description_en": "Buy 1 get 1 free Baked Macaroni delicious with Baked Macaroni in White Cream Sauce, Baked Macaroni Cheesy Shrimp and Baked Macaroni Italian Chicken super delicious cheese baked menu",
+                    "description_th": "ซื้อ 1 แถม 1 มักกะโรนีอบชีส อร่อยกับมักกะโรนีอบชีสแฮมเห็ดไวท์ครีมซอส, มักกะโรนกุ้งอบชีส และมักกะโรนีชิกเก้นอบชีส เมนูอบชีสสุดอร่อย",
+                    "selling_time": "away_time",
+                    "status": "AVAILABLE",
+                    "price_concept": "BEF1",
+                    "price": 0,
+                    "itemSelection": [
+                        {
+                            "id": "Z1|PASTA|FS1F1BM",
+                            "product_type": "PASTA",
+                            "name_en": "Choose Pasta",
+                            "name_th": "เลือกพาสต้า",
+                            "sequence": 1,
+                            "itemGroups": [
+                                {
+                                    "id": "PASTA|MIC|BAKED MACARONI ITALIAN CHICKEN",
+                                    "product_type": "PASTA",
+                                    "code": "MIC",
+                                    "name": "BAKED MACARONI ITALIAN CHICKEN",
+                                    "name_en": "Baked Macaroni Italian Chicken",
+                                    "name_th": "มักกะโรนีชิกเก้นอบชีส",
+                                    "description_en": "Hot baked macaroni, eaten with chicken, full with cheesy so delicious.",
+                                    "description_th": "มักกะโรนีอบร้อนๆ ทานคู่กับชิกเก้น หอมชีสเยิ้มยืด อร่อยจนวางไม่ลง",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "17",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 159
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PASTA|MWC|BAKED MACARONI WHITE CREAM SAUCE",
+                                    "product_type": "PASTA",
+                                    "code": "MWC",
+                                    "name": "BAKED MACARONI WHITE CREAM SAUCE",
+                                    "name_en": "Baked Macaroni in White Cream Sauce",
+                                    "name_th": "มักกะโรนีอบชีสแฮมเห็ดไวท์ครีมซอส",
+                                    "description_en": "Makaroni paired with intensely rich white cream sauce, topped with fully-loaded cheese, incredibly creamy. ham and mushrooms go well together.",
+                                    "description_th": "มักกะโรนีทานคู่กับ ซอสไวท์ครีมสุดเข้มข้น ให้ชีสแบบจัดเต็ม นัวสุดๆ ครีมมี ทานคู่กับแฮมและเห็ด เข้ากันอย่างดี",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "17",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 159
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PASTA|MCP|BAKED MACARONI CHEESY SHRIMP",
+                                    "product_type": "PASTA",
+                                    "code": "MCP",
+                                    "name": "BAKED MACARONI CHEESY SHRIMP",
+                                    "name_en": "Baked Macaroni Cheesy Shrimp",
+                                    "name_th": "มักกะโรนีกุ้งอบชีส",
+                                    "description_en": "The paradise for shrimp lovers, eaten with a cheesy incredibly delicious. It's the favorite macaroni dish.",
+                                    "description_th": "สวรรค์ของคนรักกุ้ง ทานคู่กับชีสเยิ้มๆ อร่อยสุดนัว เป็นมักกะโรนีจานโปรด",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "17",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 159
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Z2|PASTA|FS1F1BM",
+                            "product_type": "PASTA",
+                            "name_en": "Choose Pasta",
+                            "name_th": "เลือกพาสต้า",
+                            "sequence": 2,
+                            "itemGroups": [
+                                {
+                                    "id": "PASTA|MIC|BAKED MACARONI ITALIAN CHICKEN",
+                                    "product_type": "PASTA",
+                                    "code": "MIC",
+                                    "name": "BAKED MACARONI ITALIAN CHICKEN",
+                                    "name_en": "Baked Macaroni Italian Chicken",
+                                    "name_th": "มักกะโรนีชิกเก้นอบชีส",
+                                    "description_en": "Hot baked macaroni, eaten with chicken, full with cheesy so delicious.",
+                                    "description_th": "มักกะโรนีอบร้อนๆ ทานคู่กับชิกเก้น หอมชีสเยิ้มยืด อร่อยจนวางไม่ลง",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "17",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 159
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PASTA|MWC|BAKED MACARONI WHITE CREAM SAUCE",
+                                    "product_type": "PASTA",
+                                    "code": "MWC",
+                                    "name": "BAKED MACARONI WHITE CREAM SAUCE",
+                                    "name_en": "Baked Macaroni in White Cream Sauce",
+                                    "name_th": "มักกะโรนีอบชีสแฮมเห็ดไวท์ครีมซอส",
+                                    "description_en": "Makaroni paired with intensely rich white cream sauce, topped with fully-loaded cheese, incredibly creamy. ham and mushrooms go well together.",
+                                    "description_th": "มักกะโรนีทานคู่กับ ซอสไวท์ครีมสุดเข้มข้น ให้ชีสแบบจัดเต็ม นัวสุดๆ ครีมมี ทานคู่กับแฮมและเห็ด เข้ากันอย่างดี",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "17",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 159
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PASTA|MCP|BAKED MACARONI CHEESY SHRIMP",
+                                    "product_type": "PASTA",
+                                    "code": "MCP",
+                                    "name": "BAKED MACARONI CHEESY SHRIMP",
+                                    "name_en": "Baked Macaroni Cheesy Shrimp",
+                                    "name_th": "มักกะโรนีกุ้งอบชีส",
+                                    "description_en": "The paradise for shrimp lovers, eaten with a cheesy incredibly delicious. It's the favorite macaroni dish.",
+                                    "description_th": "สวรรค์ของคนรักกุ้ง ทานคู่กับชีสเยิ้มๆ อร่อยสุดนัว เป็นมักกะโรนีจานโปรด",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "17",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 159
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "PROMOTION|RISA|RICE SET A",
+                    "product_type": "PROMOTION",
+                    "code": "RISA",
+                    "name": "RICE SET A",
+                    "name_en": "Rice Bowl A",
+                    "name_th": "ชุดข้าว A",
+                    "description_en": "Fully satisfying ,one rice dish and one glass of Pepsi.",
+                    "description_th": "อร่อยจัดเต็ม เมนูข้าว 1 ที่ , น้ำเป็ปซี่ 1 แก้ว",
+                    "selling_time": "away_time",
+                    "status": "AVAILABLE",
+                    "price_concept": "NORMAL",
+                    "price": 99,
+                    "itemSelection": [
+                        {
+                            "id": "Z1|SIDE ORDER|RISA",
+                            "product_type": "SIDE ORDER",
+                            "name_en": "Choose Appetizer",
+                            "name_th": "เลือกเมนูทานเล่น",
+                            "sequence": 1,
+                            "itemGroups": [
+                                {
+                                    "id": "SIDE ORDER|KPPR|KAPRAO PORK RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "KPPR",
+                                    "name": "KAPRAO PORK RICE",
+                                    "name_en": "KAPRAO PORK RICE",
+                                    "name_th": "KAPRAO PORK RICE",
+                                    "description_en": "",
+                                    "description_th": "",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SIDE ORDER|GCKR|GARLIC CHICKEN RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "GCKR",
+                                    "name": "GARLIC CHICKEN RICE",
+                                    "name_en": "Garlic Chicken Rice",
+                                    "name_th": "ข้าวผัดกระเทียมไก่ชิ้น",
+                                    "description_en": "Infused with garlic aroma, mild and easy to enjoy - the chicken is incredibly tender and flavorful.",
+                                    "description_th": "ผัดกระเทียมไก่ชิ้น หอมกลิ่นกระเทียม รสชาติทานง่าย ไก่นุ่มสุดนัว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SIDE ORDER|CKGCR|CHICKEN GREEN CURRY RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "CKGCR",
+                                    "name": "CHICKEN GREEN CURRY RICE",
+                                    "name_en": "Green Curry Chicken Rice",
+                                    "name_th": "ข้าวเขียวหวานไก่",
+                                    "description_en": "Tender chicken that melts in your mouth, simmered in a rich, intense green curry paste with creamy coconut milk — savory, comforting, and easy to enjoy",
+                                    "description_th": "เนื้อไก่นุ่มละลาย เครื่องแกงเขียวหวานสุดเข้มข้น นัวกะทิ รสชาติถูกปากทานง่าย",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 20
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SIDE ORDER|KPMXPR|KAPRAO MIXED PORK RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "KPMXPR",
+                                    "name": "KAPRAO MIXED PORK RICE",
+                                    "name_en": "KAPRAO MIXED PORK RICE",
+                                    "name_th": "KAPRAO MIXED PORK RICE",
+                                    "description_en": "",
+                                    "description_th": "",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 20
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SIDE ORDER|BGCRR|BEEF GREEN CURRY RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "BGCRR",
+                                    "name": "BEEF GREEN CURRY RICE",
+                                    "name_en": "Green Curry Beef Shank Rice",
+                                    "name_th": "ข้าวเขียวหวานเนื้อน่องลาย",
+                                    "description_en": "Premium marble-cut beef shank, melt‑in‑your‑mouth tender, paired with rich and intense authentic Thai green curry",
+                                    "description_th": "เนื้อน่องลายสุดพรีเมียม นุ่มละลายในปากพร้อมเครื่องแกงเขียวหวานสุดเข้มข้น สไตล์ไทยแท้",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 50
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SIDE ORDER|KPCPK|KAPRAO CRISPY PORK RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "KPCPK",
+                                    "name": "KAPRAO CRISPY PORK RICE",
+                                    "name_en": "Kaprao crispy pork stir-fried Rice",
+                                    "name_th": "ข้าวกะเพราหมูกรอบ",
+                                    "description_en": "Large pieces of crispy pork stir-fried in authentic Thai holy basil - fragrant, bold, and delightfully easy to eat.",
+                                    "description_th": "หมููกรอบชิ้นใหญ่ หอมกลิ่นกะเพราไทยแท้ จัดจ้านถูกใจ ทานง่ายถูกปาก",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Z2|DRINK|RISA",
+                            "product_type": "DRINK",
+                            "name_en": "Choose Drink",
+                            "name_th": "เลือกเครื่องดื่ม",
+                            "sequence": 2,
+                            "itemGroups": [
+                                {
+                                    "id": "DRINK|PEP16OZ|PEPSI 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "PEP16OZ",
+                                    "name": "PEPSI 16 OZ",
+                                    "name_en": "Pepsi 16oz",
+                                    "name_th": "เป๊ปซี่ 16 ออนซ์",
+                                    "description_en": "Pepsi 16oz 1 Cup",
+                                    "description_th": "เป๊ปซี่ 16 ออนซ์ 1 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "DRINK|PZS|PEPSI ZERO SUGAR 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "PZS",
+                                    "name": "PEPSI ZERO SUGAR 16 OZ",
+                                    "name_en": "Pepsi Zero Sugar 16oz",
+                                    "name_th": "เป๊ปซี่ไม่มีน้ำตาล 16 ออนซ์",
+                                    "description_en": "Pepsi Zero Sugar 16oz 1 Cup",
+                                    "description_th": "เป๊ปซี่ ไม่มีน้ำตาล 16 ออนซ์ 1 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "PROMOTION|RISB|RICE SET B",
+                    "product_type": "PROMOTION",
+                    "code": "RISB",
+                    "name": "RICE SET B",
+                    "name_en": "Rice Bowl B",
+                    "name_th": "ชุดข้าว B",
+                    "description_en": "An indulgent feast with one rice dish, one order of french fries, and one glass of Pepsi",
+                    "description_th": "อร่อยจัดหนักกับเมนูข้าว 1 ที่ , เฟรนฟรายซ์ 1 ที่ , เป๊ปซี่ 1 แก้ว",
+                    "selling_time": "away_time",
+                    "status": "AVAILABLE",
+                    "price_concept": "NORMAL",
+                    "price": 139,
+                    "itemSelection": [
+                        {
+                            "id": "Z1|SIDE ORDER|RISB",
+                            "product_type": "SIDE ORDER",
+                            "name_en": "Choose Appetizer",
+                            "name_th": "เลือกเมนูทานเล่น",
+                            "sequence": 1,
+                            "itemGroups": [
+                                {
+                                    "id": "SIDE ORDER|KPPR|KAPRAO PORK RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "KPPR",
+                                    "name": "KAPRAO PORK RICE",
+                                    "name_en": "KAPRAO PORK RICE",
+                                    "name_th": "KAPRAO PORK RICE",
+                                    "description_en": "",
+                                    "description_th": "",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SIDE ORDER|GCKR|GARLIC CHICKEN RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "GCKR",
+                                    "name": "GARLIC CHICKEN RICE",
+                                    "name_en": "Garlic Chicken Rice",
+                                    "name_th": "ข้าวผัดกระเทียมไก่ชิ้น",
+                                    "description_en": "Infused with garlic aroma, mild and easy to enjoy - the chicken is incredibly tender and flavorful.",
+                                    "description_th": "ผัดกระเทียมไก่ชิ้น หอมกลิ่นกระเทียม รสชาติทานง่าย ไก่นุ่มสุดนัว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SIDE ORDER|CKGCR|CHICKEN GREEN CURRY RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "CKGCR",
+                                    "name": "CHICKEN GREEN CURRY RICE",
+                                    "name_en": "Green Curry Chicken Rice",
+                                    "name_th": "ข้าวเขียวหวานไก่",
+                                    "description_en": "Tender chicken that melts in your mouth, simmered in a rich, intense green curry paste with creamy coconut milk — savory, comforting, and easy to enjoy",
+                                    "description_th": "เนื้อไก่นุ่มละลาย เครื่องแกงเขียวหวานสุดเข้มข้น นัวกะทิ รสชาติถูกปากทานง่าย",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 20
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SIDE ORDER|KPMXPR|KAPRAO MIXED PORK RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "KPMXPR",
+                                    "name": "KAPRAO MIXED PORK RICE",
+                                    "name_en": "KAPRAO MIXED PORK RICE",
+                                    "name_th": "KAPRAO MIXED PORK RICE",
+                                    "description_en": "",
+                                    "description_th": "",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 20
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SIDE ORDER|BGCRR|BEEF GREEN CURRY RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "BGCRR",
+                                    "name": "BEEF GREEN CURRY RICE",
+                                    "name_en": "Green Curry Beef Shank Rice",
+                                    "name_th": "ข้าวเขียวหวานเนื้อน่องลาย",
+                                    "description_en": "Premium marble-cut beef shank, melt‑in‑your‑mouth tender, paired with rich and intense authentic Thai green curry",
+                                    "description_th": "เนื้อน่องลายสุดพรีเมียม นุ่มละลายในปากพร้อมเครื่องแกงเขียวหวานสุดเข้มข้น สไตล์ไทยแท้",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 50
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SIDE ORDER|KPCPK|KAPRAO CRISPY PORK RICE",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "KPCPK",
+                                    "name": "KAPRAO CRISPY PORK RICE",
+                                    "name_en": "Kaprao crispy pork stir-fried Rice",
+                                    "name_th": "ข้าวกะเพราหมูกรอบ",
+                                    "description_en": "Large pieces of crispy pork stir-fried in authentic Thai holy basil - fragrant, bold, and delightfully easy to eat.",
+                                    "description_th": "หมููกรอบชิ้นใหญ่ หอมกลิ่นกะเพราไทยแท้ จัดจ้านถูกใจ ทานง่ายถูกปาก",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "5",
+                                            "sizecode": "REG",
+                                            "sizename_en": "Regular",
+                                            "sizename_th": "ขนาดปกติ",
+                                            "price": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Z2|SIDE ORDER|RISB",
+                            "product_type": "SIDE ORDER",
+                            "name_en": "Choose Appetizer",
+                            "name_th": "เลือกเมนูทานเล่น",
+                            "sequence": 2,
+                            "itemGroups": [
+                                {
+                                    "id": "SIDE ORDER|FFS|FRENCH FRIES",
+                                    "product_type": "SIDE ORDER",
+                                    "code": "FFS",
+                                    "name": "FRENCH FRIES",
+                                    "name_en": "French Fries",
+                                    "name_th": "เฟรนช์ฟรายส์",
+                                    "description_en": "Crunchy fried French fries, crispy outside, soft inside. Fun to chew, enjoy the ultimate party",
+                                    "description_th": "เฟรนช์ฟรายส์ทอดกรอบ กรอบนอกนุ่มใน เคี้ยวเพลิน เอนจอยปาร์ตี้สุดฟิน",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "53",
+                                            "sizecode": "100G",
+                                            "sizename_en": "",
+                                            "sizename_th": "",
+                                            "price": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Z3|DRINK|RISB",
+                            "product_type": "DRINK",
+                            "name_en": "Choose Drink",
+                            "name_th": "เลือกเครื่องดื่ม",
+                            "sequence": 3,
+                            "itemGroups": [
+                                {
+                                    "id": "DRINK|PEP16OZ|PEPSI 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "PEP16OZ",
+                                    "name": "PEPSI 16 OZ",
+                                    "name_en": "Pepsi 16oz",
+                                    "name_th": "เป๊ปซี่ 16 ออนซ์",
+                                    "description_en": "Pepsi 16oz 1 Cup",
+                                    "description_th": "เป๊ปซี่ 16 ออนซ์ 1 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "DRINK|PZS|PEPSI ZERO SUGAR 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "PZS",
+                                    "name": "PEPSI ZERO SUGAR 16 OZ",
+                                    "name_en": "Pepsi Zero Sugar 16oz",
+                                    "name_th": "เป๊ปซี่ไม่มีน้ำตาล 16 ออนซ์",
+                                    "description_en": "Pepsi Zero Sugar 16oz 1 Cup",
+                                    "description_th": "เป๊ปซี่ ไม่มีน้ำตาล 16 ออนซ์ 1 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "MEALSET|1F1BEV|1F1 BEVERAGE",
+                    "product_type": "MEALSET",
+                    "code": "1F1BEV",
+                    "name": "1F1 BEVERAGE",
+                    "name_en": "Hut 1 Free 1 Beverage 16oz.",
+                    "name_th": "ฮัทซื้อ 1 แถม 1 เครื่องดื่ม 16 ออนซ์",
+                    "description_en": "Buy Pepsi, Pepsi Zero Sugar and Lemon Iced Tea 16oz. Get free 1 cup.",
+                    "description_th": "เมื่อซื้อเป๊ปซี่, เป๊ปซี่ไม่มีน้ำตาล และชามะนาว 16 ออนซ์ 1 แก้ว แถมฟรี อีก 1 แก้ว",
+                    "selling_time": "away_time",
+                    "status": "AVAILABLE",
+                    "price_concept": "NORMAL",
+                    "price": 49,
+                    "itemSelection": [
+                        {
+                            "id": "Z1|DRINK|1F1BEV",
+                            "product_type": "DRINK",
+                            "name_en": "Choose Drink",
+                            "name_th": "เลือกเครื่องดื่ม",
+                            "sequence": 1,
+                            "itemGroups": [
+                                {
+                                    "id": "DRINK|PEP16OZ|PEPSI 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "PEP16OZ",
+                                    "name": "PEPSI 16 OZ",
+                                    "name_en": "Pepsi 16oz",
+                                    "name_th": "เป๊ปซี่ 16 ออนซ์",
+                                    "description_en": "Pepsi 16oz 1 Cup",
+                                    "description_th": "เป๊ปซี่ 16 ออนซ์ 1 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "DRINK|PZS|PEPSI ZERO SUGAR 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "PZS",
+                                    "name": "PEPSI ZERO SUGAR 16 OZ",
+                                    "name_en": "Pepsi Zero Sugar 16oz",
+                                    "name_th": "เป๊ปซี่ไม่มีน้ำตาล 16 ออนซ์",
+                                    "description_en": "Pepsi Zero Sugar 16oz 1 Cup",
+                                    "description_th": "เป๊ปซี่ ไม่มีน้ำตาล 16 ออนซ์ 1 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "DRINK|LMT|LEMON TEA 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "LMT",
+                                    "name": "LEMON TEA 16 OZ",
+                                    "name_en": "Lemon Iced Tea 16oz",
+                                    "name_th": "ชามะนาว 16 ออนซ์",
+                                    "description_en": "Lemon Iced Tea 16oz 1 cup",
+                                    "description_th": "ชามะนาว 16 ออนซ์ 1 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Z2|DRINK|1F1BEV",
+                            "product_type": "DRINK",
+                            "name_en": "Choose Drink",
+                            "name_th": "เลือกเครื่องดื่ม",
+                            "sequence": 2,
+                            "itemGroups": [
+                                {
+                                    "id": "DRINK|PEP16OZ|PEPSI 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "PEP16OZ",
+                                    "name": "PEPSI 16 OZ",
+                                    "name_en": "Pepsi 16oz",
+                                    "name_th": "เป๊ปซี่ 16 ออนซ์",
+                                    "description_en": "Pepsi 16oz 1 Cup",
+                                    "description_th": "เป๊ปซี่ 16 ออนซ์ 1 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "DRINK|PZS|PEPSI ZERO SUGAR 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "PZS",
+                                    "name": "PEPSI ZERO SUGAR 16 OZ",
+                                    "name_en": "Pepsi Zero Sugar 16oz",
+                                    "name_th": "เป๊ปซี่ไม่มีน้ำตาล 16 ออนซ์",
+                                    "description_en": "Pepsi Zero Sugar 16oz 1 Cup",
+                                    "description_th": "เป๊ปซี่ ไม่มีน้ำตาล 16 ออนซ์ 1 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "DRINK|LMT|LEMON TEA 16 OZ",
+                                    "product_type": "DRINK",
+                                    "code": "LMT",
+                                    "name": "LEMON TEA 16 OZ",
+                                    "name_en": "Lemon Iced Tea 16oz",
+                                    "name_th": "ชามะนาว 16 ออนซ์",
+                                    "description_en": "Lemon Iced Tea 16oz 1 cup",
+                                    "description_th": "ชามะนาว 16 ออนซ์ 1 แก้ว",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "6",
+                                            "sizecode": "GLS",
+                                            "sizename_en": "Glass",
+                                            "sizename_th": "แก้ว",
+                                            "price": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "PROMOTION|AGBNLV|A GET B NPL LV",
+                    "product_type": "PROMOTION",
+                    "code": "AGBNLV",
+                    "name": "A GET B NPL LV",
+                    "name_en": "A GET B NPL LV",
+                    "name_th": "A GET B NPL LV",
+                    "description_en": "A GET B NPL LV",
+                    "description_th": "A GET B NPL LV",
+                    "selling_time": "away_time",
+                    "status": "AVAILABLE",
+                    "price_concept": "NORMAL",
+                    "price": 329,
+                    "itemSelection": [
+                        {
+                            "id": "Z1|PIZZA|AGBNLV",
+                            "product_type": "PIZZA",
+                            "name_en": "Choose Pizza",
+                            "name_th": "เลือกพิซซ่า",
+                            "sequence": 1,
+                            "itemGroups": [
+                                {
+                                    "id": "PIZZA|MARGT|MARGHERITA",
+                                    "product_type": "PIZZA",
+                                    "code": "MARGT",
+                                    "name": "MARGHERITA",
+                                    "name_en": "Margherita Pizza",
+                                    "name_th": "พิซซ่ามาการิต้า",
+                                    "description_en": "Authentic Italian style pizza, perfectly balanced, rich sauce, delicious in real Italian style.",
+                                    "description_th": "พิซซ่าสไตล์นาโปลีแท้ authentic italy style แท้ๆ กลมกล่อมลงตัว ซอสเข้มข้น อร่อยสไตล์อิตาลีแท้",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "105",
+                                                    "crust_code": "ALMOND PRETZA",
+                                                    "crust_name_en": "ALMOND PRETZA",
+                                                    "crust_name_th": "ALMOND PRETZA",
+                                                    "price": 30
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "sizeid": "29",
+                                            "sizecode": "NPL10",
+                                            "sizename_en": "Airy Dough 10 inch",
+                                            "sizename_th": "แอรี่ โดว์ 10 นิ้ว",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "94",
+                                                    "crust_code": "AIRY DOUGH",
+                                                    "crust_name_en": "AIRY DOUGH",
+                                                    "crust_name_th": "AIRY DOUGH",
+                                                    "price": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Z2|PIZZA|AGBNLV",
+                            "product_type": "PIZZA",
+                            "name_en": "Choose Pizza",
+                            "name_th": "เลือกพิซซ่า",
+                            "sequence": 2,
+                            "itemGroups": [
+                                {
+                                    "id": "PIZZA|PPI|PEPPERONI",
+                                    "product_type": "PIZZA",
+                                    "code": "PPI",
+                                    "name": "PEPPERONI",
+                                    "name_en": "Pepperoni",
+                                    "name_th": "เปปเปอโรนี",
+                                    "description_en": "Cheese, Pepperoni, and Pizza Sauce",
+                                    "description_th": "ชีส, เปปเปอโรนี และซอสพิซซ่า",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "1",
+                                                    "crust_code": "PAN",
+                                                    "crust_name_en": "PAN",
+                                                    "crust_name_th": "PAN",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "2",
+                                                    "crust_code": "THIN",
+                                                    "crust_name_en": "THIN",
+                                                    "crust_name_th": "THIN",
+                                                    "price": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|HCE|HAM AND CHEESE",
+                                    "product_type": "PIZZA",
+                                    "code": "HCE",
+                                    "name": "HAM AND CHEESE",
+                                    "name_en": "Ham & Cheese",
+                                    "name_th": "แฮม & ชีส",
+                                    "description_en": "Cheese, Ham, Cheese Dice, Pineapple and Thousand Island Sauce",
+                                    "description_th": "ชีส, แฮมหมู, ชีสไดซ์, สับปะรด และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "1",
+                                                    "crust_code": "PAN",
+                                                    "crust_name_en": "PAN",
+                                                    "crust_name_th": "PAN",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "2",
+                                                    "crust_code": "THIN",
+                                                    "crust_name_en": "THIN",
+                                                    "crust_name_th": "THIN",
+                                                    "price": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|CHE|CHEESE LOVER",
+                                    "product_type": "PIZZA",
+                                    "code": "CHE",
+                                    "name": "CHEESE LOVER",
+                                    "name_en": "Cheese",
+                                    "name_th": "ชีส",
+                                    "description_en": "Cheese and Pizza Sauce",
+                                    "description_th": "ชีส และซอสพิซซ่า",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "1",
+                                                    "crust_code": "PAN",
+                                                    "crust_name_en": "PAN",
+                                                    "crust_name_th": "PAN",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "2",
+                                                    "crust_code": "THIN",
+                                                    "crust_name_en": "THIN",
+                                                    "crust_name_th": "THIN",
+                                                    "price": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|NOS|NEW ORLEANS AND SAUSAGE",
+                                    "product_type": "PIZZA",
+                                    "code": "NOS",
+                                    "name": "NEW ORLEANS AND SAUSAGE",
+                                    "name_en": "New Orleans & Sausage",
+                                    "name_th": "นิวออร์ลีนส์ & ซอสเซจ",
+                                    "description_en": "Cheese, New Orleans Chicken, Chicken Sausage, Pineapple and Thousand Island Sauce",
+                                    "description_th": "ชีส, ไก่นิวออร์ลีนส์, ไส้กรอกไก่, สับปะรด และซอสเทาซันด์ไอแลนด์",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "1",
+                                                    "crust_code": "PAN",
+                                                    "crust_name_en": "PAN",
+                                                    "crust_name_th": "PAN",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "104",
+                                                    "crust_code": "ORIGINAL PRETZA",
+                                                    "crust_name_en": "ORIGINAL PRETZA",
+                                                    "crust_name_th": "ORIGINAL PRETZA",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "2",
+                                                    "crust_code": "THIN",
+                                                    "crust_name_en": "THIN",
+                                                    "crust_name_th": "THIN",
+                                                    "price": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "PIZZA|CKGC|CHICKEN GREEN CURRY",
+                                    "product_type": "PIZZA",
+                                    "code": "CKGC",
+                                    "name": "CHICKEN GREEN CURRY",
+                                    "name_en": "Chicken Green Curry Pizza",
+                                    "name_th": "พิซซ่าเขียวหวานไก่",
+                                    "description_en": "Large chicken pieces with authentic Thai green curry flavor — rich, aromatic, and full of traditional herbs and spices.",
+                                    "description_th": "ไก่ชิ้นใหญ่ รสชาติดั้งเดิมไทยแท้ หอมกลิ่นเครื่องแกงเขียวหวาน รสชาติเข้มข้น",
+                                    "status": "AVAILABLE",
+                                    "subitems": [
+                                        {
+                                            "sizeid": "2",
+                                            "sizecode": "M",
+                                            "sizename_en": "Medium",
+                                            "sizename_th": "ขนาดกลาง",
+                                            "description_en": "6pcs. for 2-3 persons",
+                                            "description_th": "ขนาด 6 ชิ้นสำหรับ 2-3 คน",
+                                            "price": 0,
+                                            "crust": [
+                                                {
+                                                    "crust_id": "1",
+                                                    "crust_code": "PAN",
+                                                    "crust_name_en": "PAN",
+                                                    "crust_name_th": "PAN",
+                                                    "price": 0
+                                                },
+                                                {
+                                                    "crust_id": "2",
+                                                    "crust_code": "THIN",
+                                                    "crust_name_en": "THIN",
+                                                    "crust_name_th": "THIN",
+                                                    "price": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+services:
+  pizza-api:
+    build: .
+    container_name: pizza-menu-api
+    ports:
+      - "4060:4060"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - PORT=4060
+    env_file:
+      - .env
+    restart: unless-stopped
