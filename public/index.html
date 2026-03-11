@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="th" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍕 Pizza Menu API Tester</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <style>
+    body { background: #0d1117; }
+    .card { border: 1px solid #30363d; background: #161b22; }
+    .card-header { background: #1c2128; border-bottom: 1px solid #30363d; }
+    .response-box {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 16px;
+      max-height: 500px;
+      overflow-y: auto;
+      font-family: 'Consolas', 'Monaco', monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .btn-pizza { background: linear-gradient(135deg, #f97316, #ef4444); border: none; color: #fff; }
+    .btn-pizza:hover { background: linear-gradient(135deg, #fb923c, #f87171); color: #fff; }
+    .badge-method-get { background: #238636; }
+    .badge-method-post { background: #8957e5; }
+    .endpoint-btn { cursor: pointer; transition: all 0.15s; }
+    .endpoint-btn:hover { background: #1c2128 !important; }
+    .chat-bubble-user { background: #1f6feb; border-radius: 16px 16px 4px 16px; padding: 10px 16px; color: #fff; max-width: 80%; }
+    .chat-bubble-bot { background: #30363d; border-radius: 16px 16px 16px 4px; padding: 10px 16px; max-width: 80%; }
+    .spinner-border-sm { width: 1rem; height: 1rem; }
+    #chatMessages { max-height: 400px; overflow-y: auto; }
+  </style>
+</head>
+<body>
+  <div class="container-fluid py-4">
+    <!-- Header -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h2 class="fw-bold"><i class="bi bi-rocket-takeoff text-warning"></i> Pizza Menu API Tester</h2>
+        <div class="d-flex justify-content-center align-items-center gap-2 mt-2">
+          <span class="text-secondary">Base URL:</span>
+          <input type="text" id="baseUrl" class="form-control form-control-sm" style="width: 300px;" value="http://localhost:4060">
+          <button class="btn btn-sm btn-outline-success" onclick="checkHealth()">
+            <i class="bi bi-heart-pulse"></i> Health
+          </button>
+          <span id="healthStatus" class="badge bg-secondary">Unknown</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <!-- Left: AI Chat -->
+      <div class="col-lg-6">
+        <div class="card h-100">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <h5 class="mb-0"><i class="bi bi-chat-dots text-info"></i> AI Chat <span class="badge badge-method-post">POST</span> /api/chat</h5>
+            <button class="btn btn-sm btn-outline-secondary" onclick="clearChat()"><i class="bi bi-trash3"></i> Clear</button>
+          </div>
+          <div class="card-body">
+            <!-- Session -->
+            <div class="row g-2 mb-3">
+              <div class="col-7">
+                <label class="form-label small text-secondary">session_id_turn</label>
+                <div class="input-group input-group-sm">
+                  <input type="text" id="sessionId" class="form-control" value="" placeholder="auto-generated">
+                  <button class="btn btn-outline-secondary" onclick="newSession()"><i class="bi bi-arrow-clockwise"></i> New</button>
+                </div>
+              </div>
+              <div class="col-3">
+                <label class="form-label small text-secondary">turn</label>
+                <input type="number" id="turnNumber" class="form-control form-control-sm" value="1" min="1">
+              </div>
+              <div class="col-2">
+                <label class="form-label small text-secondary">lang</label>
+                <select id="lang" class="form-select form-select-sm">
+                  <option value="TH-th">TH</option>
+                  <option value="EN-us">EN</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Chat Messages -->
+            <div id="chatMessages" class="mb-3 p-3" style="background: #0d1117; border-radius: 8px; min-height: 200px;">
+              <div class="text-center text-secondary small py-4">
+                <i class="bi bi-chat-square-text" style="font-size: 2rem;"></i><br>
+                พิมพ์ข้อความเพื่อเริ่มสนทนากับ Pizza Bot
+              </div>
+            </div>
+
+            <!-- Input -->
+            <div class="input-group">
+              <input type="text" id="userQuestion" class="form-control" placeholder="เมนูแนะนำมีอะไรบ้าง..." 
+                     onkeydown="if(event.key==='Enter')sendChat()">
+              <button class="btn btn-pizza" onclick="sendChat()" id="sendBtn">
+                <i class="bi bi-send-fill"></i> ส่ง
+              </button>
+            </div>
+
+            <!-- Quick Questions -->
+            <div class="mt-2">
+              <span class="text-secondary small">ลองถาม: </span>
+              <button class="btn btn-sm btn-outline-secondary" onclick="quickAsk('เมนูแนะนำมีอะไรบ้าง')">เมนูแนะนำ</button>
+              <button class="btn btn-sm btn-outline-secondary" onclick="quickAsk('มีโปรโมชั่นอะไรบ้าง')">โปรโมชั่น</button>
+              <button class="btn btn-sm btn-outline-secondary" onclick="quickAsk('พิซซ่า Ham and Cheese ราคาเท่าไร')">ราคาพิซซ่า</button>
+              <button class="btn btn-sm btn-outline-secondary" onclick="quickAsk('สั่ง Pepperoni ขนาด L ขอบชีส')">สั่งพิซซ่า</button>
+            </div>
+
+            <!-- Thought / Order Action (collapsible) -->
+            <div id="lastThought" class="mt-3" style="display:none;">
+              <div class="accordion accordion-flush" id="detailAccordion">
+                <div class="accordion-item" style="background:transparent;border:1px solid #30363d;">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#detailBody" style="background:#1c2128;color:#8b949e;font-size:13px;">
+                      <i class="bi bi-gear me-2"></i> Detail (thought, order_action, processing_time)
+                    </button>
+                  </h2>
+                  <div id="detailBody" class="accordion-collapse collapse" data-bs-parent="#detailAccordion">
+                    <div class="accordion-body p-2">
+                      <pre id="detailContent" class="response-box mb-0" style="max-height:200px;"></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Menu Endpoints -->
+      <div class="col-lg-6">
+        <div class="card h-100">
+          <div class="card-header">
+            <h5 class="mb-0"><i class="bi bi-list-ul text-success"></i> Menu Endpoints <span class="badge badge-method-get">GET</span></h5>
+          </div>
+          <div class="card-body">
+            <!-- Endpoint buttons -->
+            <div class="list-group list-group-flush mb-3">
+              <a class="list-group-item list-group-item-action endpoint-btn d-flex justify-content-between align-items-center" style="background:transparent;border-color:#30363d;" onclick="callGet('/api/menu')">
+                <span><span class="badge badge-method-get me-2">GET</span>/api/menu</span>
+                <small class="text-secondary">รายการ group ทั้งหมด</small>
+              </a>
+              <a class="list-group-item list-group-item-action endpoint-btn d-flex justify-content-between align-items-center" style="background:transparent;border-color:#30363d;" onclick="callGet('/api/menu/pizza')">
+                <span><span class="badge badge-method-get me-2">GET</span>/api/menu/pizza</span>
+                <small class="text-secondary">เมนูพิซซ่า</small>
+              </a>
+              <a class="list-group-item list-group-item-action endpoint-btn d-flex justify-content-between align-items-center" style="background:transparent;border-color:#30363d;" onclick="callGet('/api/menu/appetizers')">
+                <span><span class="badge badge-method-get me-2">GET</span>/api/menu/appetizers</span>
+                <small class="text-secondary">อาหารอื่นๆ</small>
+              </a>
+              <a class="list-group-item list-group-item-action endpoint-btn d-flex justify-content-between align-items-center" style="background:transparent;border-color:#30363d;" onclick="callGet('/api/promotions')">
+                <span><span class="badge badge-method-get me-2">GET</span>/api/promotions</span>
+                <small class="text-secondary">โปรโมชัน</small>
+              </a>
+              <a class="list-group-item list-group-item-action endpoint-btn d-flex justify-content-between align-items-center" style="background:transparent;border-color:#30363d;" onclick="callGet('/api/combos')">
+                <span><span class="badge badge-method-get me-2">GET</span>/api/combos</span>
+                <small class="text-secondary">คอมโบ</small>
+              </a>
+              <a class="list-group-item list-group-item-action endpoint-btn d-flex justify-content-between align-items-center" style="background:transparent;border-color:#30363d;" onclick="callGet('/api/recommend')">
+                <span><span class="badge badge-method-get me-2">GET</span>/api/recommend</span>
+                <small class="text-secondary">เมนูแนะนำ</small>
+              </a>
+              <a class="list-group-item list-group-item-action endpoint-btn d-flex justify-content-between align-items-center" style="background:transparent;border-color:#30363d;" onclick="callGet('/api/toppings?size=M')">
+                <span><span class="badge badge-method-get me-2">GET</span>/api/toppings?size=M</span>
+                <small class="text-secondary">ท็อปปิ้ง</small>
+              </a>
+              <a class="list-group-item list-group-item-action endpoint-btn d-flex justify-content-between align-items-center" style="background:transparent;border-color:#30363d;" onclick="callGet('/api/half-half')">
+                <span><span class="badge badge-method-get me-2">GET</span>/api/half-half</span>
+                <small class="text-secondary">พิซซ่าครึ่ง-ครึ่ง</small>
+              </a>
+              <a class="list-group-item list-group-item-action endpoint-btn d-flex justify-content-between align-items-center" style="background:transparent;border-color:#30363d;" onclick="callGet('/api/selling-time')">
+                <span><span class="badge badge-method-get me-2">GET</span>/api/selling-time</span>
+                <small class="text-secondary">ช่วงเวลาขาย</small>
+              </a>
+              <a class="list-group-item list-group-item-action endpoint-btn d-flex justify-content-between align-items-center" style="background:transparent;border-color:#30363d;" onclick="callGet('/api/chat/sessions')">
+                <span><span class="badge badge-method-get me-2">GET</span>/api/chat/sessions</span>
+                <small class="text-secondary">active sessions</small>
+              </a>
+            </div>
+
+            <!-- Custom endpoint -->
+            <div class="input-group input-group-sm mb-3">
+              <span class="input-group-text" style="background:#1c2128;border-color:#30363d;">GET</span>
+              <input type="text" id="customPath" class="form-control" placeholder="/api/menu/pizza/HCE" style="border-color:#30363d;">
+              <button class="btn btn-outline-success" onclick="callGet(document.getElementById('customPath').value)">
+                <i class="bi bi-send"></i> Call
+              </button>
+            </div>
+
+            <!-- Response -->
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <span class="small text-secondary" id="getEndpointLabel">Response</span>
+              <span class="small" id="getTimer"></span>
+            </div>
+            <pre id="getResponse" class="response-box text-success">กดปุ่ม endpoint ด้านบนเพื่อเรียก API</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Generate session ID
+    function generateId() {
+      return 'sess-' + Math.random().toString(36).substring(2, 10);
+    }
+
+    // Init
+    let chatStarted = false;
+    document.getElementById('sessionId').value = generateId();
+
+    function getBaseUrl() {
+      return document.getElementById('baseUrl').value.replace(/\/$/, '');
+    }
+
+    // ============ Health Check ============
+    async function checkHealth() {
+      const badge = document.getElementById('healthStatus');
+      badge.className = 'badge bg-warning';
+      badge.textContent = 'Checking...';
+      try {
+        const res = await fetch(getBaseUrl() + '/health');
+        const data = await res.json();
+        badge.className = 'badge bg-success';
+        badge.textContent = `✅ OK (Gemini: ${data.gemini})`;
+      } catch (e) {
+        badge.className = 'badge bg-danger';
+        badge.textContent = '❌ Offline';
+      }
+    }
+
+    // ============ AI Chat ============
+    function newSession() {
+      document.getElementById('sessionId').value = generateId();
+      document.getElementById('turnNumber').value = 1;
+      clearChat();
+    }
+
+    function clearChat() {
+      chatStarted = false;
+      document.getElementById('chatMessages').innerHTML = `
+        <div class="text-center text-secondary small py-4">
+          <i class="bi bi-chat-square-text" style="font-size: 2rem;"></i><br>
+          พิมพ์ข้อความเพื่อเริ่มสนทนากับ Pizza Bot
+        </div>`;
+      document.getElementById('lastThought').style.display = 'none';
+    }
+
+    function quickAsk(text) {
+      document.getElementById('userQuestion').value = text;
+      sendChat();
+    }
+
+    function addChatBubble(role, text) {
+      const container = document.getElementById('chatMessages');
+      if (!chatStarted) {
+        container.innerHTML = '';
+        chatStarted = true;
+      }
+      const align = role === 'user' ? 'justify-content-end' : 'justify-content-start';
+      const cls = role === 'user' ? 'chat-bubble-user' : 'chat-bubble-bot';
+      const icon = role === 'user' ? '<i class="bi bi-person-fill"></i>' : '🍕';
+      const div = document.createElement('div');
+      div.className = `d-flex ${align} mb-2`;
+      div.innerHTML = `<div class="${cls}"><small class="fw-bold">${icon}</small> ${text.replace(/\n/g, '<br>')}</div>`;
+      container.appendChild(div);
+      container.scrollTop = container.scrollHeight;
+    }
+
+    async function sendChat() {
+      const question = document.getElementById('userQuestion').value.trim();
+      if (!question) return;
+
+      const sessionId = document.getElementById('sessionId').value || generateId();
+      const turn = document.getElementById('turnNumber').value;
+      const lang = document.getElementById('lang').value;
+      const sessionIdTurn = sessionId + '_' + turn;
+
+      // Show user bubble
+      addChatBubble('user', question);
+      document.getElementById('userQuestion').value = '';
+
+      // Show loading
+      const sendBtn = document.getElementById('sendBtn');
+      sendBtn.disabled = true;
+      sendBtn.innerHTML = '<span class="spinner-border spinner-border-sm"></span>';
+
+      // Add typing indicator
+      const typingDiv = document.createElement('div');
+      typingDiv.className = 'd-flex justify-content-start mb-2';
+      typingDiv.id = 'typing';
+      typingDiv.innerHTML = '<div class="chat-bubble-bot"><span class="spinner-border spinner-border-sm me-1"></span> กำลังคิด...</div>';
+      document.getElementById('chatMessages').appendChild(typingDiv);
+
+      try {
+        const res = await fetch(getBaseUrl() + '/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ session_id_turn: sessionIdTurn, lang, userquestion: question })
+        });
+        const data = await res.json();
+
+        // Remove typing
+        document.getElementById('typing')?.remove();
+
+        // Show bot response
+        addChatBubble('bot', data.response || data.error || 'No response');
+
+        // Show details
+        document.getElementById('lastThought').style.display = 'block';
+        document.getElementById('detailContent').textContent = JSON.stringify({
+          thought: data.thought,
+          order_action: data.order_action,
+          processing_time_ms: data.processing_time_ms
+        }, null, 2);
+
+        // Auto increment turn
+        document.getElementById('turnNumber').value = parseInt(turn) + 1;
+
+      } catch (e) {
+        document.getElementById('typing')?.remove();
+        addChatBubble('bot', '❌ Connection error: ' + e.message);
+      }
+
+      sendBtn.disabled = false;
+      sendBtn.innerHTML = '<i class="bi bi-send-fill"></i> ส่ง';
+    }
+
+    // ============ GET Endpoints ============
+    async function callGet(path) {
+      const label = document.getElementById('getEndpointLabel');
+      const timer = document.getElementById('getTimer');
+      const responseBox = document.getElementById('getResponse');
+
+      label.textContent = 'GET ' + path;
+      responseBox.textContent = 'Loading...';
+      responseBox.className = 'response-box text-warning';
+      timer.textContent = '';
+
+      const start = Date.now();
+      try {
+        const res = await fetch(getBaseUrl() + path);
+        const data = await res.json();
+        const elapsed = Date.now() - start;
+
+        responseBox.textContent = JSON.stringify(data, null, 2);
+        responseBox.className = res.ok ? 'response-box text-success' : 'response-box text-danger';
+        timer.textContent = `${res.status} — ${elapsed}ms`;
+        timer.className = res.ok ? 'small text-success' : 'small text-danger';
+      } catch (e) {
+        responseBox.textContent = 'Error: ' + e.message;
+        responseBox.className = 'response-box text-danger';
+        timer.textContent = 'Failed';
+        timer.className = 'small text-danger';
+      }
+    }
+
+    // Auto health check on load
+    checkHealth();
+  </script>
+</body>
+</html>
